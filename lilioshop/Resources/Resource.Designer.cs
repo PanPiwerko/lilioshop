@@ -45,7 +45,22 @@ namespace lilioshop
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int background = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int circle_shape = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int circular_progress_bar = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int custom_progress_background = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int Icon = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int progress = 2130837509;
 			
 			static Drawable()
 			{
@@ -53,6 +68,34 @@ namespace lilioshop
 			}
 			
 			private Drawable()
+			{
+			}
+		}
+		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f050004
+			public const int button = 2131034116;
+			
+			// aapt resource value: 0x7f050001
+			public const int imageView = 2131034113;
+			
+			// aapt resource value: 0x7f050003
+			public const int progressBar1 = 2131034115;
+			
+			// aapt resource value: 0x7f050002
+			public const int text_view = 2131034114;
+			
+			// aapt resource value: 0x7f050000
+			public const int webView = 2131034112;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
 			{
 			}
 		}
